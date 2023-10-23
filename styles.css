@@ -116,22 +116,40 @@ display: block;
 
 .expertise-section__headline {
     text-align: center;
-    /* position: relative; */
+    position: relative;
     
 }
 
-/* .expertise-section__headline:after {
+.expertise-section__headline:after {
 
 
     content: "";
-    border-left: #CCC 2px solid;
     position: absolute;
+    /* border-left: #CCC 5px solid; */
+    left: 0;
+    right: 0;
+    top: 100%;
+    margin: 30px auto;
+    width:25%;
+    height:2px;
+    background:rgb(0, 0, 0);
     display: block;
-
-    bottom: 30px;
+    /* top: 10px;
+    bottom: -100px;
     left: 50%;
+    transform: rotate(90deg);
+    width: 50%; */
 
-} */
+}
+
+    /* content:'';
+    position:absolute;
+    left:0; right:0;
+    top:100%;
+    margin:10px auto;
+    width:50%;
+    height:6px;
+    background:#00f; */
 
 .expertise-section__headline > h2 {
     text-transform: uppercase;
