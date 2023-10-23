@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Rubik', sans-serif;
+}
 /* Nav Bar */
 
 
@@ -14,6 +17,87 @@
 
 
 /* Watch Our Story Section */
+
+.watch-story {
+    background-image: url("resources/bgk-middle.png");
+    background-size: cover;
+    background-repeat:no-repeat ;
+    width: 100vw;
+    height: 50vh;
+
+}
+
+.watch-story__content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.watch-story__content-wrapper
+
+
+#watch-story__play-button {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.watch-story__cta-p {
+    position: absolute;
+    color: white;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 5em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+
+.watch-story-2 {
+    background-image: url("resources/bgk-middle.png");
+    background-size: cover;
+    background-repeat:no-repeat ;
+    width: 100vw;
+    height: 50vh;
+}
+
+.watch-story__content-2 {
+    /* position: relative; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#watch-story__play-button-2 {
+display: block;
+}
+
+.watch-story__cta-p-2 {
+
+    color: white;
+    display: block;
+    margin-top: 1em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+
+
+
+
 
 
 /* Expertise Section */
