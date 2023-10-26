@@ -630,8 +630,9 @@ video:hover {
 
 .contact-form-section {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 3rem;
+    height: 60vh;
 }
 
 .contact-form-section__contact-form-wrapper {
@@ -647,7 +648,10 @@ video:hover {
 }
 
 .contact-form-section__contact-form {
-    justify-content: space-around;
+    /* display: flex; */
+    flex-direction: column;
+    width: 40%;
+    margin-top: 7rem;
 }
 
 .contact-form-section__contact-form-headline, .contact-form-section__happy-clients-headline {
@@ -655,17 +659,30 @@ video:hover {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 30px;
+    margin-bottom: 3rem;
+}
+
+.contact-form-section__happy-clients {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    
 }
 
 #form-name {
     background-image: none !important;
 }
 
+#__lpform_form-name_icon {
+    display: none;
+}
+
 .form-button {
     position: relative;
-    display: inlin-block;
+    display: inline;
     margin-top: 1.6rem;
-    padding: 15px 40px;
+    padding: 15px 50px;
     font-size: 16px;
     font-weight: 600;
     color:#68DACD;
@@ -706,7 +723,7 @@ video:hover {
     background-color: white;
     font-family: 'Poppins';
     height: 2.8rem;
-    width: 
+    width: 80%;
 }
 
 .contact-form-section__input-textarea {
@@ -714,6 +731,7 @@ video:hover {
     border: 1px solid rgb(170, 170, 170, 0.2);
     background-color: white;
     font-family: 'Poppins';
+    width: 80%;
 }
 
 .contact-form-section__input::placeholder, .contact-form-section__input-textarea::placeholder {
@@ -724,8 +742,14 @@ textarea {
     resize: none; 
 }
 
-.contact-form-section__happy-clients-headline {
 
+.contact-form-section__happy-clients-icon-wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 1.4rem;
+    gap: 1.6rem;
+    width: 60%;
+    row-gap: 3rem;
 }
 
 /* Footer Section */
