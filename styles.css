@@ -465,12 +465,12 @@ video:hover {
     background-color: rgb(170, 170, 170, 0.2);
 }
 
-#expertise-section__icon1 { grid-area: 1 / 1 / 2 / 2; }
+/* #expertise-section__icon1 { grid-area: 1 / 1 / 2 / 2; }
 #expertise-section__icon2 { grid-area: 1 / 2 / 2 / 3; }
 #expertise-section__icon3 { grid-area: 1 / 3 / 2 / 4; }
 #expertise-section__icon4 { grid-area: 2 / 1 / 3 / 2; }
 #expertise-section__icon5 { grid-area: 2 / 2 / 3 / 3; }
-#expertise-section__icon6 { grid-area: 2 / 3 / 3 / 4; }
+#expertise-section__icon6 { grid-area: 2 / 3 / 3 / 4; } */
 
 #expertise-section__icon1, #expertise-section__icon2, #expertise-section__icon3, #expertise-section__icon4, #expertise-section__icon5, #expertise-section__icon6 {
     padding: 1em;
@@ -488,6 +488,14 @@ video:hover {
     color: #797979;
 }
 
+.expertise-section__icon {
+    position: relative;
+}
+
+.expertise-section__icon-text {
+    position: absolute;
+    top: 70px;
+}
 
 /* Meet Our Team Section */
 
@@ -728,7 +736,7 @@ video:hover {
 
 
 
-@media (max-width:768px) {
+@media screen and (max-width:768px) {
     header {
         font-size: 18px;
     }
@@ -839,6 +847,10 @@ video:hover {
 
     .hiring-button {
         padding-bottom: 1em;
+    }
+
+    .expertise-section__icons-wrapper {
+        grid-template-columns: repeat(2, 1fr);
     }
 
 }
