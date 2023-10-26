@@ -192,3 +192,72 @@ display: block;
 
 
 /* Footer Section */
+.footer {
+    background-image: url(./resources/bgk-footer.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 402px;
+    display: flex;
+    justify-content: center;
+    color: white;
+} 
+
+.footer__wrapper {
+    display: flex;
+    gap: 65px;
+    width: 1280px;
+    padding-top: 4rem;
+} 
+
+
+.footer__info-card {
+    max-width: 450px;
+    
+}
+
+.footer__info-card li {
+    list-style: none;
+    border: solid;
+}
+
+
+.footer__info-card ul {
+    display: flex;
+}
+
+.footer__card-headline {
+    height: 4rem;
+}
+
+.footer__logo {
+    height: 4rem;
+}
+
+.footer__card-content {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.footer__card-logo {
+    height: 19px;
+    width: 14px;;
+}
+
+.footer__subscribe-form {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__input {
+    height: 47px;
+    width: 212px;
+    padding-left: 25px;
+}
+
+.footer__button {
+    height: 47px;
+    width: 76px;
+    opacity: .5;
+}
+
