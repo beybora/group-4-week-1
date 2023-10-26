@@ -657,6 +657,10 @@ video:hover {
     font-size: 30px;
 }
 
+#form-name {
+    background-image: none !important;
+}
+
 .form-button {
     position: relative;
     display: inlin-block;
