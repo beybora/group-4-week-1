@@ -81,7 +81,26 @@ body {
 
 #watch-story__play-button-2 {
 display: block;
+
 }
+
+#watch-story__play-button-2:hover {
+    cursor: pointer;
+    }
+
+video {
+
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+video:hover {
+    
+    cursor: pointer;
+
+}
+    
 
 .watch-story__cta-p-2 {
 
@@ -122,17 +141,17 @@ display: block;
 
 .expertise-section__headline:after {
 
-
     content: "";
     position: absolute;
     /* border-left: #CCC 5px solid; */
     left: 0;
     right: 0;
     top: 100%;
-    margin: 30px auto;
-    width:25%;
+    margin: auto;
+    margin-top: 25px;
+    width: 12.5%;
     height:2px;
-    background:rgb(0, 0, 0);
+    background: #aaaaaa;
     display: block;
     /* top: 10px;
     bottom: -100px;
@@ -142,28 +161,29 @@ display: block;
 
 }
 
-    /* content:'';
-    position:absolute;
-    left:0; right:0;
-    top:100%;
-    margin:10px auto;
-    width:50%;
-    height:6px;
-    background:#00f; */
 
 .expertise-section__headline > h2 {
     text-transform: uppercase;
     padding-bottom: 0.5em;
+    color: #454545;
 }
 
 .expertise-section__icons {
+    
+    padding: 4em 15em;
+
+}
+
+.expertise-section__icons-wrapper {
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     text-align: center;
-    padding: 4em 15em;
+    grid-gap: 1px;
+    background-color: #aaaaaa;
 }
 
 #expertise-section__icon1 { grid-area: 1 / 1 / 2 / 2; }
@@ -175,6 +195,7 @@ display: block;
 
 #expertise-section__icon1, #expertise-section__icon2, #expertise-section__icon3, #expertise-section__icon4, #expertise-section__icon5, #expertise-section__icon6 {
     padding: 1em;
+    background-color: white;
 }
 
 .expertise-section__icons-headline {
@@ -183,6 +204,10 @@ display: block;
     font-weight: 900;
 }
 
+.expertise-section__p {
+
+    color: #797979;
+}
 
 
 /* Meet Our Team Section */
