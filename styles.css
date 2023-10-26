@@ -217,12 +217,12 @@ display: block;
 
 .footer__info-card li {
     list-style: none;
-    border: solid;
 }
 
 
 .footer__info-card ul {
     display: flex;
+    gap: .5rem
 }
 
 .footer__card-headline {
@@ -247,6 +247,7 @@ display: block;
 .footer__subscribe-form {
     display: flex;
     gap: 10px;
+    padding-bottom: 25px;
 }
 
 .footer__input {
