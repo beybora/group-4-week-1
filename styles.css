@@ -16,7 +16,7 @@
 
 
 body {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Poppins';
     width: 100%;
     height: 100vh;
     
@@ -250,6 +250,10 @@ h1 {
     width: 50%;
 }
 
+.story-text p {
+    color: #797979;
+}
+
 .story-button {
     /* width: 20%; */
     position: relative;
@@ -293,6 +297,7 @@ h1 {
 .story-text h2 {
     margin-bottom: 10px;
     font-weight: 400;
+    text-transform: uppercase;
 }
 
 
@@ -391,6 +396,7 @@ video:hover {
     text-align: center;
     font-weight: 600;
     letter-spacing: 0.1em;
+    font-family: Poppins;
 }
 
 /* Expertise Section */
@@ -410,6 +416,13 @@ video:hover {
     text-align: center;
     position: relative;
     
+}
+
+.expertise-section__headline h2 {
+    font-family: Poppins;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30px;
 }
 
 .expertise-section__headline:after {
@@ -473,7 +486,8 @@ video:hover {
 .expertise-section__icons-headline {
     padding: 1em;
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: 600;
+    font-family: Poppins;
 }
 
 .expertise-section__p {
@@ -614,6 +628,101 @@ video:hover {
 
 /* Contact Form Section */
 
+.contact-form-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact-form-section__contact-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    
+
+}
+
+.contact-form-section__contact-form-wrapper input {
+    display: block;
+}
+
+.contact-form-section__contact-form {
+    justify-content: space-around;
+}
+
+.contact-form-section__contact-form-headline, .contact-form-section__happy-clients-headline {
+    font-family: Poppins;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.form-button {
+    position: relative;
+    display: inlin-block;
+    margin-top: 1.6rem;
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color:#68DACD;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: #68DACD;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.form-button:hover {
+    color: black;
+}
+.form-button::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #68DACD;
+    border-radius: 5px;
+    visibility: hidden;
+    z-index: -1;
+    height: 10px;
+    width: 10px;
+}
+
+.form-button:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+}
+
+.contact-form-section__input {
+    padding: 1em;
+    border: 1px solid rgb(170, 170, 170, 0.2);
+    background-color: white;
+    font-family: 'Poppins';
+    height: 2.8rem;
+    width: 
+}
+
+.contact-form-section__input-textarea {
+    padding: 1em;
+    border: 1px solid rgb(170, 170, 170, 0.2);
+    background-color: white;
+    font-family: 'Poppins';
+}
+
+.contact-form-section__input::placeholder, .contact-form-section__input-textarea::placeholder {
+    padding-left: 0.6rem;
+}
+
+textarea { 
+    resize: none; 
+}
+
+.contact-form-section__happy-clients-headline {
+
+}
 
 /* Footer Section */
 
