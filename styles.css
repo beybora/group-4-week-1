@@ -395,13 +395,6 @@ video:hover {
 
 /* Expertise Section */
 
-.expertise-section {
-
-    /* width: 100vw; */
-    /* height: 50vh; */
-
-}
-
 .expertise-section__content {
     width: 100%;
     height: 100%;
@@ -445,7 +438,6 @@ video:hover {
 .expertise-section__headline > h2 {
     text-transform: uppercase;
     padding-bottom: 0.5em;
-    color: #454545;
 }
 
 .expertise-section__icons {
@@ -493,6 +485,11 @@ video:hover {
     position: relative;
     display: flex; 
     flex-direction: column; 
+}
+
+.expertise-section__icon > p {
+
+    color: #797979;
 }
 
 .expertise-section__icon-img-wrapper {
