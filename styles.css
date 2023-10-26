@@ -36,6 +36,7 @@ header {
     display: flex;
     margin-top: 20px;
     justify-content: space-around;
+    padding: 1rem 0rem;
 }
 
 .logo-wrapper {
@@ -345,7 +346,7 @@ h1 {
     background-size: cover;
     background-repeat:no-repeat ;
     /* width: 100vw; */
-    height: 50vh;
+    height: 70vh;
 }
 
 .watch-story__content-2 {
@@ -456,7 +457,7 @@ video:hover {
 .expertise-section__icons-wrapper {
 
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 33.3333333%);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
@@ -490,11 +491,13 @@ video:hover {
 
 .expertise-section__icon {
     position: relative;
+    display: flex; 
+    flex-direction: column; 
 }
 
-.expertise-section__icon-text {
-    position: absolute;
-    top: 70px;
+.expertise-section__icon-img-wrapper {
+
+    height: 70px;
 }
 
 /* Meet Our Team Section */
