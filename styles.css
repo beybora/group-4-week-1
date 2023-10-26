@@ -70,6 +70,10 @@ li:hover {
     cursor: pointer;
 }
 
+.nav-bar ul li:first-child {
+    color:#68DACD;
+  }
+
 .logo-text {
     font-family: Nunito Sans;
     color: #56A4BF;
@@ -456,7 +460,7 @@ video:hover {
     grid-row-gap: 0px;
     text-align: center;
     grid-gap: 1px;
-    background-color: #aaaaaa;
+    background-color: rgb(170, 170, 170, 0.2);
 }
 
 #expertise-section__icon1 { grid-area: 1 / 1 / 2 / 2; }
