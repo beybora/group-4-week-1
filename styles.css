@@ -870,9 +870,11 @@ textarea {
 
 }
 
-@media screen (min-width:400px) and (max-width:1400px) {
+@media screen and (min-width: 400px) and (max-width: 1400px) {
     .contact-form-section__happy-clients-img {
-        width: 90%;
+        display: block;
+        max-width: 100%;
+        height: auto;
     }
 }
 
@@ -881,10 +883,14 @@ textarea {
         font-size: 18px;
     }
 
-
-
     .contact-form-section {
         flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .contact-form-section__contact-form, .contact-form-section__happy-clients {
+        padding-top: 5em;
+        margin-top: 0;
     }
 
     .contact-form-section__happy-clients, .contact-form-section__contact-form {
