@@ -107,9 +107,9 @@ li:hover {
     cursor: pointer;
 }
 
-.nav-bar ul li:first-child {
-    color:#68DACD;
-  }
+#home {
+    color: #68DACD;
+}
 
   .nav-bar ul a {
     text-decoration: none;
@@ -275,7 +275,7 @@ h1 {
 
 .our-story {
 
-    min-height: 70vh;
+    min-height: 100vh;
     font-family: Poppins;
     justify-content: flex-end;
     display: flex;
@@ -900,8 +900,7 @@ textarea {
     .team-container_wrapper {
         margin-top: 20px;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr !important;
     }
 
     .hiring-container p {
@@ -1107,7 +1106,7 @@ textarea {
     .team-container_wrapper {
         margin-top: 20px;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
     .hiring-container p {
