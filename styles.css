@@ -67,11 +67,11 @@ header {
     display: block;
     width: 100%;
     z-index: 100;
-    position: absolute;
-    top: 120px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    /* position: absolute; */
+    /* top: 120px; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 
