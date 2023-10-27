@@ -28,14 +28,25 @@ document.getElementById('video').addEventListener('click', function() {
 
 // Toggle hamburger menu //
 
-const checkboxElement = document.getElementById('checkbox');
-      const upButton = document.querySelector('.up');
-      const toggleLabel = document.querySelector('.toggle');
-      checkboxElement.addEventListener('click', () => {
-        toggleLabel.toggle('show-dropdown');
-      });
-      upButton.addEventListener('click', () => {
-        document.documentElement.scrollTop = 0;
-      });
 
+    /*   document.querySelector(".burger-menu").addEventListener("click", () => {
+        const navBarMobile = document.querySelector(".nav-bar-mobile");
+        if (navBarMobile.style.display === "none") {
+            navBarMobile.style.display = "block";
+      } else {
+        navBarMobile.style.display = "none";
+    }
+      }); */
+
+    /* const navBarMobile = document.querySelector('.nav-bar-mobile');
+    document.querySelector('.burger-menu').addEventListener('click', () => {
+        navBarMobile.classList.toggle('show');
+    }); */
+    
+      
+
+      
+
+
+      
 // Toggle hamburger menu end //

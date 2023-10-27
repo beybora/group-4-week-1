@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     <title>TAJAM - Group 4</title>
 </head>
-<body>
+<body id="top-of-page">
     <!-- Nav Bar -->
     <header class="background-container">
         <div class="header-wrapper">
@@ -31,21 +31,40 @@
                 </label>
                 </div>
 
+
+
+
+
+
             <!-- Mobile hamburger menu / -->
             <nav class="nav-bar">
                 <ul>
-                    <li id="home">HOME</li>
-                    <li>ABOUT</li>
-                    <li>EXPERTISE</li>
-                    <li>TEAMS</li>
-                    <li>WORKS</li>
-                    <li class="people-li">PEOPLE SAY</li>
-                    <li class="contact-li">CONTACT</li>
+                    <a href="#top-of-page"><li id="home">HOME</li></a>
+                    <a href="#our-story__wrapper"><li>ABOUT</li></a>
+                    <a href="#expertise-section"><li>EXPERTISE</li></a>
+                    <a href="#our-team_wrapper"><li>TEAMS</li></a>
+                    <a href="#contact-form-section"><li>WORKS</li></a>
+                    <a href="#contact-form-section"><li class="people-li">PEOPLE SAY</li></a>
+                    <a href="#contact-form-section"><li class="contact-li">CONTACT</li></a>
                 </ul>
                 
             
             </nav>
         </div>
+
+        <nav class="nav-bar-mobile">
+            <ul>
+                <a href="#top-of-page"><li id="home">HOME</li></a>
+                <a href="#our-story__wrapper"><li>ABOUT</li></a>
+                <a href="#expertise-section"><li>EXPERTISE</li></a>
+                <a href="#our-team_wrapper"><li>TEAMS</li></a>
+                <a href="#contact-form-section"><li>WORKS</li></a>
+                <a href="#contact-form-section"><li class="people-li">PEOPLE SAY</li></a>
+                <a href="#contact-form-section"><li class="contact-li">CONTACT</li></a>
+            </ul>
+            
+        
+        </nav>
        
         <!-- Hero Section -->
         <section class="hero-section">
@@ -60,7 +79,7 @@
 
 
     <!-- Our Story Section -->
-    <section class="our-story__wrapper">
+    <section id="our-story__wrapper" class="our-story__wrapper">
         <section class="our-story">
           <div class="story-image">
             <img src="./resources/logo-big.png" alt="">
@@ -106,7 +125,7 @@
 
 
     <!-- Expertise Section -->
-    <section class="expertise-section">
+    <section id="expertise-section" class="expertise-section">
         <div class="expertise-section__content">
             <div class="expertise-section__headline">
                 <h2>Expertise</h2>
@@ -178,7 +197,7 @@
     </section>
 
     <!-- Meet Our Team Section -->
-    <section class="our-team_wrapper">
+    <section id="our-team_wrapper" class="our-team_wrapper">
         <div class="our-team-text"> 
           <h4>MEET OUR AMAZING TEAM</h4>
           <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
@@ -231,7 +250,8 @@
     </section>
 
     <!-- Contact Form Section -->
-    <section class="contact-form-section">
+    <section id="contact-form-section" class="contact-form-section">
+
         <div class="contact-form-section__contact-form">
             <h3 class="contact-form-section__contact-form-headline">Give us some good news</h3>
             <form class="contact-form-section__contact-form-wrapper"action="/submit" method="post">
@@ -261,7 +281,7 @@
                 <img class="contact-form-section__happy-clients-img" src="resources/Calvin_klein_logo.png" alt="Calvin Klein">
                 <img class="contact-form-section__happy-clients-img" src="resources/1280px-Logo_NIKE.png" alt="Nike">
                 <img class="contact-form-section__happy-clients-img" src="resources/Converse_logo.png" alt="Converse">
-                <img class="contact-form-section__happy-clients-img" src="resources/Puma_logo.png" alt="Puma">
+                <img class="contact-form-section__happy-clients-img" src="resources/Puma_Logo.png" alt="Puma">
                 <img class="contact-form-section__happy-clients-img" src="resources/1280px-Levi's_logo.png" alt="Levi's">
                 <img class="contact-form-section__happy-clients-img" src="resources/Billabong.png" alt="Converse">
 
@@ -330,5 +350,13 @@
     </footer>
 
     <script src="scripts.js"></script>
+    <script>
+
+    const navBarMobile = document.querySelector('.nav-bar-mobile');
+    document.querySelector('.burger-menu .toggle').addEventListener('click', () => {
+        navBarMobile.classList.toggle('show');
+    });
+
+    </script>
 </body>
 </html>
