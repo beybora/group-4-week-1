@@ -275,7 +275,7 @@ h1 {
 
 .our-story {
 
-    min-height: 100vh;
+    min-height: 70vh;
     font-family: Poppins;
     justify-content: flex-end;
     display: flex;
@@ -295,6 +295,7 @@ h1 {
 }
 
 .story-text p {
+    font-size: 1rem;
     color: #797979;
 }
 
@@ -646,7 +647,7 @@ video:hover {
 
 
 .member-box {
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 80px 60px;
     background-color: white;
 }
@@ -1036,6 +1037,12 @@ textarea {
         place-items: center;
 
     }
+
+    .nav-bar-mobile.show ul {
+
+        font-size: 1rem;
+
+        }
 
     .contact-li {
         grid-column: 2;
