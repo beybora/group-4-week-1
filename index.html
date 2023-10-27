@@ -31,6 +31,11 @@
                 </label>
                 </div>
 
+
+
+
+
+
             <!-- Mobile hamburger menu / -->
             <nav class="nav-bar">
                 <ul>
@@ -46,6 +51,20 @@
             
             </nav>
         </div>
+
+        <nav class="nav-bar-mobile">
+            <ul>
+                <li id="home">HOME</li>
+                <li>ABOUT</li>
+                <li>EXPERTISE</li>
+                <li>TEAMS</li>
+                <li>WORKS</li>
+                <li class="people-li">PEOPLE SAY</li>
+                <li class="contact-li">CONTACT</li>
+            </ul>
+            
+        
+        </nav>
        
         <!-- Hero Section -->
         <section class="hero-section">
@@ -282,5 +301,13 @@
     <footer> </footer>
 
     <script src="scripts.js"></script>
+    <script>
+
+    const navBarMobile = document.querySelector('.nav-bar-mobile');
+    document.querySelector('.burger-menu .toggle').addEventListener('click', () => {
+        navBarMobile.classList.toggle('show');
+    });
+
+    </script>
 </body>
 </html>
