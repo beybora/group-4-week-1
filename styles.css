@@ -1154,20 +1154,18 @@ textarea {
     background-image: url(./resources/bgk-footer.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 40vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
-    padding-bottom: 4rem;
 } 
 
 .footer__wrapper {
     display: flex;
     gap: 100px;
     width: 1280px;
-    padding-top: 6rem;  
 } 
 
 .footer__logo {
