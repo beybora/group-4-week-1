@@ -912,6 +912,68 @@ textarea {
         max-width: 100%;
         height: auto;
     }
+
+    .story-text {
+        margin-top: 2rem;
+    }
+
+    .story-text {
+        width: auto;
+    }
+    .our-story {
+     
+     text-align: center;
+      
+    }
+
+    .our-story p {
+        text-align: left;
+    }
+
+    .our-story img {
+        max-width: 55%;
+        margin-left: 2rem;
+    }
+
+    .our-story h2 {
+        text-align: left;
+    }
+
+    .story-button {
+        margin-bottom: 2.5rem;
+    }
+
+    .hero-button {
+        margin-bottom: 2rem;
+    }
+
+    .hero-text {
+        width: 80%;
+    }
+
+    .hero-bar {
+        width: 6%;
+    }
+
+    .logo-wrapper  {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        place-items: center;
+    
+    }
+
+    .team-container_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 2rem;
+    }
+
+    .hiring-container {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        display: grid;
+        justify-items: center;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -1025,9 +1087,7 @@ textarea {
         padding-left: 20px;
         
     }
-
-    .story-button {
-        width: 35%;
+        
 
     }
 
@@ -1054,7 +1114,6 @@ textarea {
         grid-template-columns: repeat(2, 1fr);
     }
 
-}
 
 @media (min-width:1024px) and (max-width: 1024px) {
     header {
@@ -1185,3 +1244,4 @@ textarea {
 }
 
 /* Media query */
+
