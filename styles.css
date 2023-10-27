@@ -275,7 +275,7 @@ h1 {
 
 .our-story {
 
-    min-height: 70vh;
+    min-height: 65vh;
     font-family: Poppins;
     justify-content: flex-end;
     display: flex;
@@ -929,6 +929,8 @@ textarea {
         width: auto;
     }
     .our-story {
+    
+    margin-left: 4em;
      
      text-align: center;
       
