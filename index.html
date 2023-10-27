@@ -20,9 +20,21 @@
                     <p>tajam</p>
                 </div>
             </div>
+
+            <!-- Mobile hamburger menu -->
+            <div class="burger-menu">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox" class="toggle">
+                    <div class="bars" id="bar1"></div>
+                    <div class="bars" id="bar2"></div>
+                    <div class="bars" id="bar3"></div>
+                </label>
+                </div>
+
+            <!-- Mobile hamburger menu / -->
             <nav class="nav-bar">
                 <ul>
-                    <li>HOME</li>
+                    <li id="home">HOME</li>
                     <li>ABOUT</li>
                     <li>EXPERTISE</li>
                     <li>TEAMS</li>
@@ -30,13 +42,15 @@
                     <li class="people-li">PEOPLE SAY</li>
                     <li class="contact-li">CONTACT</li>
                 </ul>
+                
+            
             </nav>
         </div>
        
         <!-- Hero Section -->
         <section class="hero-section">
             <div class="hero-section__wrapper">
-                <h1>We Are Awesome Creative Agency</h1>
+                <h1>We Are An Awesome Creative Agency</h1>
                 <div class="hero-bar"></div>
                 <p class="hero-text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem <br /></b>quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
                 <button class="hero-button">LEARN MORE</button>
@@ -102,41 +116,58 @@
             <div class="expertise-section__icons">
                 <div class="expertise-section__icons-wrapper">
 
-                    <div id="expertise-section__icon1">
+                    <div class="expertise-section__icon" id="expertise-section__icon1">
+                        <div class="expertise-section__icon-img-wrapper">
                         <img class="expertise-section__icon-img" src="resources/screen.png" alt="Web Design & Development">
-                        <h3 class="expertise-section__icons-headline">Web design & development</h3>
-                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                        </div>
+ 
+                            <h3 class="expertise-section__icons-headline">Web design & development</h3>
+                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+
                     </div>
-                    <div id="expertise-section__icon2">
+                    <div class="expertise-section__icon" id="expertise-section__icon2">
+                        <div class="expertise-section__icon-img-wrapper">
                         <img class="expertise-section__icon-img" src="resources/pen.png" alt="Branding identity">
-                        <h3 class="expertise-section__icons-headline">Branding identity</h3>
-                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                        </div>
+
+                            <h3 class="expertise-section__icons-headline">Branding identity</h3>
+                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
 
                     </div>
-                    <div id="expertise-section__icon3">
+                    <div class="expertise-section__icon" id="expertise-section__icon3">
+                        <div class="expertise-section__icon-img-wrapper">
                         <img class="expertise-section__icon-img" src="resources/mobile.png" alt="Mobile App">
-                        <h3 class="expertise-section__icons-headline">Mobile app</h3>
-                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                        </div>
+
+                            <h3 class="expertise-section__icons-headline">Mobile app</h3>
+                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
 
                     </div>
-                    <div id="expertise-section__icon4">
+                    <div class="expertise-section__icon" id="expertise-section__icon4">
+                        <div class="expertise-section__icon-img-wrapper">
                         <img class="expertise-section__icon-img" src="resources/graph.png" alt="SEO">
-                        <h3 class="expertise-section__icons-headline">Search Engine Optimization</h3>
-                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                        </div>
+
+                            <h3 class="expertise-section__icons-headline">Search Engine Optimization</h3>
+                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
 
                     </div>
-                    <div id="expertise-section__icon5">
+                    <div class="expertise-section__icon" id="expertise-section__icon5">
+                        <div class="expertise-section__icon-img-wrapper">
                         <img class="expertise-section__icon-img" src="resources/gameboy.png" alt="Game development">
-                        <h3 class="expertise-section__icons-headline">Game development</h3>
-                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
+                        </div>
+
+                            <h3 class="expertise-section__icons-headline">Game development</h3>
+                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
 
                     </div>
-                    <div id="expertise-section__icon6">
+                    <div class="expertise-section__icon" id="expertise-section__icon6">
+                        <div class="expertise-section__icon-img-wrapper">
                         <img class="expertise-section__icon-img" src="resources/heart.png" alt="Made with love">
+                        </div>
                         <h3 class="expertise-section__icons-headline">Made with love</h3>
                         <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</p>
-
-                    </div>
+                    </div> 
                 
 
 
@@ -200,7 +231,52 @@
     </section>
 
     <!-- Contact Form Section -->
-    <section></section>
+    <section class="contact-form-section">
+
+        <div class="contact-form-section__contact-form">
+            <h3 class="contact-form-section__contact-form-headline">Give us some good news</h3>
+            <form class="contact-form-section__contact-form-wrapper"action="/submit" method="post">
+                <input class="contact-form-section__input" type="text" id="form-name" name="name" placeholder="Name" required>
+        
+
+                <input class="contact-form-section__input" type="email" id="form-email" name="email" placeholder="Email" required>
+        
+
+                <input class="contact-form-section__input" type="text" id="form-subject" placeholder="Subject"name="subject" required>
+        
+
+                <textarea class="contact-form-section__input-textarea" id="form-message" name="message" rows="10" cols="50" placeholder="Your message" required></textarea>
+        
+                
+            </form>
+            <button type="submit" class="form-button">SUBMIT</button>
+        </div>
+
+        <div class="contact-form-section__happy-clients">
+            <h3 class="contact-form-section__happy-clients-headline">Our Happy Clients</h3>
+            <div class="contact-form-section__happy-clients-icon-wrapper">
+                <img class="contact-form-section__happy-clients-img" src="resources/Zara_Logo.svg" alt="Zara">
+                <img class="contact-form-section__happy-clients-img" src="resources/Logo_of_Mango_(new).png" alt="Mango">
+                <img class="contact-form-section__happy-clients-img" src="resources/1280px-Barneys_New_York_Logo.svg" alt="Barneys">
+                <img class="contact-form-section__happy-clients-img" src="resources/1280px-Gucci_Logo.svg" alt="Gucci">
+                <img class="contact-form-section__happy-clients-img" src="resources/Calvin_klein_logo.png" alt="Calvin Klein">
+                <img class="contact-form-section__happy-clients-img" src="resources/1280px-Logo_NIKE.png" alt="Nike">
+                <img class="contact-form-section__happy-clients-img" src="resources/Converse_logo.png" alt="Converse">
+                <img class="contact-form-section__happy-clients-img" src="resources/Puma_logo.png" alt="Puma">
+                <img class="contact-form-section__happy-clients-img" src="resources/1280px-Levi's_logo.png" alt="Levi's">
+                <img class="contact-form-section__happy-clients-img" src="resources/Billabong.png" alt="Converse">
+
+
+            </div>
+        
+        
+        </div>
+
+
+
+
+
+    </section>
 
     <!-- Footer -->
     <footer> </footer>
