@@ -67,11 +67,11 @@ header {
     display: block;
     width: 100%;
     z-index: 100;
-    position: absolute;
-    top: 120px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    /* position: absolute; */
+    /* top: 120px; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 
@@ -109,6 +109,14 @@ li:hover {
 
 .nav-bar ul li:first-child {
     color:#68DACD;
+  }
+
+  .nav-bar ul a {
+    text-decoration: none;
+  }
+
+  .nav-bar-mobile ul a {
+    text-decoration: none;
   }
 
 .logo-text {
@@ -1232,6 +1240,10 @@ textarea {
     .burger-menu {
         display: none;
     }
+
+    .nav-bar-mobile.show {
+        display: none;
+    }
   }
 
   @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -1241,6 +1253,8 @@ textarea {
   .burger-menu > .toggle {
         margin-right: 3rem;
   }
+
+
 }
 
 /* Media query */
