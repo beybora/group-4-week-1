@@ -111,6 +111,14 @@ li:hover {
     color:#68DACD;
   }
 
+  .nav-bar ul a {
+    text-decoration: none;
+  }
+
+  .nav-bar-mobile ul a {
+    text-decoration: none;
+  }
+
 .logo-text {
     font-family: Nunito Sans;
     color: #56A4BF;
