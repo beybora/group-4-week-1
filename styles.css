@@ -746,8 +746,7 @@ textarea {
 .contact-form-section__happy-clients-icon-wrapper {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-column-gap: 1.4rem;
-    gap: 1.6rem;
+    column-gap: 20px;
     width: 60%;
     row-gap: 3rem;
 }
@@ -871,12 +870,35 @@ textarea {
 
 }
 
-
+@media screen (min-width:400px) and (max-width:1400px) {
+    .contact-form-section__happy-clients-img {
+        width: 90%;
+    }
+}
 
 @media screen and (max-width:768px) {
     header {
         font-size: 18px;
     }
+
+
+
+    .contact-form-section {
+        flex-direction: column;
+    }
+
+    .contact-form-section__happy-clients, .contact-form-section__contact-form {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .contact-form-section__contact-form-wrapper {
+        justify-content: center;
+        align-items: center;
+    }
+
 
     .header-wrapper {
         margin-top: 1rem;
