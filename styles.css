@@ -1181,6 +1181,10 @@ textarea {
     .burger-menu {
         display: none;
     }
+
+    .nav-bar-mobile.show {
+        display: none;
+    }
   }
 
   @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -1190,6 +1194,8 @@ textarea {
   .burger-menu > .toggle {
         margin-right: 3rem;
   }
+
+
 }
 
 /* Media query */
